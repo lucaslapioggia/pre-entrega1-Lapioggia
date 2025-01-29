@@ -1,0 +1,136 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipografía legible */
+    background-color: #f4f4f4; /* Color de fondo claro */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Color de texto oscuro para buena legibilidad */
+}
+
+/* Estilos para el header */
+header {
+    background-color: #076bde9d; /* Fondo verde para el header */
+    color: white; /* Texto blanco en el header */
+    padding: 20px 0; /* Espaciado interno (arriba y abajo) */
+    text-align: center; /* Alineación central del texto */
+}
+
+
+header h1 {
+    margin: 0; /* Elimina márgenes extra en el título */
+    font-size: 2.5em; /* Tamaño grande para el nombre de la veterinaria */
+}
+
+header p {
+    font-size: 1.2em; /* Tamaño de fuente para el eslogan */
+    margin: 10px 0 0; /* Margen superior para separar del título */
+}
+
+/* Estilos para la navegación */
+nav {
+    background-color: #333; /* Fondo oscuro para la barra de navegación */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra los elementos de la lista */
+}
+
+nav ul li {
+    display: inline-block; /* Los elementos de la lista se alinean horizontalmente */
+    margin: 0 20px; /* Espaciado entre los enlaces */
+}
+
+nav a {
+    color: white; /* Color blanco para los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 1.2em; /* Aumenta el tamaño de los enlaces */
+}
+
+nav a:hover {
+    color: #4CAF50; /* Cambia el color cuando el usuario pasa el ratón sobre el enlace */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 40px 20px; /* Espaciado interno */
+    margin: 20px 0; /* Margen superior e inferior */
+    background-color: white; /* Fondo blanco para las secciones */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil alrededor de las secciones */
+}
+
+/* Estilo para los encabezados dentro de las secciones */
+section h2 {
+    font-size: 2em;
+    color: #4CAF50; /* Color verde para los encabezados */
+    margin-bottom: 20px; /* Separación entre el encabezado y el contenido */
+}
+
+/* Estilos para los párrafos */
+p {
+    font-size: 1em; /* Tamaño de fuente estándar */
+    line-height: 1.6; /* Aumenta la altura de la línea para mejorar la legibilidad */
+    margin-bottom: 20px; /* Margen inferior para separar párrafos */
+}
+
+/* Estilo para las imágenes */
+img {
+    width: 50%;
+    height: 100%; /* Las imágenes ocupan el 100% del ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    margin-bottom: 20px; /* Separación debajo de las imágenes */
+    display: block;
+    
+}
+
+/* Estilos para la lista de servicios */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.1em; /* Aumenta el tamaño de los elementos de la lista */
+    margin-bottom: 10px; /* Separación entre los elementos de la lista */
+}
+
+/* Estilo para los enlaces de contacto */
+a {
+    color: #4CAF50; /* Enlaces de color verde */
+}
+
+a:hover {
+    color: #333; /* Cambia a color oscuro cuando el ratón pasa por encima */
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #333; /* Fondo oscuro para el footer */
+    color: white; /* Texto blanco */
+    padding: 10px 0; /* Espaciado interno */
+    text-align: center; /* Alineación centrada */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para el contenedor del header */
+.contenedor-header {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px; /* Limita el ancho máximo del contenido */
+}
+
+
+.video {
+    width: 800px;/* Ajusta el tamaño de la imagen */
+    height: 800px; 
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+   
+}
